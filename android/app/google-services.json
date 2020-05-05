@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "514080783286",
+    "firebase_url": "https://travell-bafd3.firebaseio.com",
+    "project_id": "travell-bafd3",
+    "storage_bucket": "travell-bafd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514080783286:android:bca370d00610a8f3c35f17",
+        "android_client_info": {
+          "package_name": "com.facebook.travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514080783286-t6v7s6d7100fm7kpq6ecd1u43j7ftehi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.facebook.travel",
+            "certificate_hash": "d6ef4fd9acea910ad798e2a463c0f900db93aa35"
+          }
+        },
+        {
+          "client_id": "514080783286-nsiok61abhho8gjsoar4cqk35nipkca5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2CXBpCIUGVX_nhMjnTCgQ8LHHIqxEBcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514080783286-nsiok61abhho8gjsoar4cqk35nipkca5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
