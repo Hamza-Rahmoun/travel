@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:travel/provider/login-provider.dart';
+import 'package:travel/petit_provider/circle_avatar.dart';
+import 'package:travel/petit_provider/clip_path.dart';
+import 'package:travel/petit_provider/sized_box.dart';
+import 'package:travel/provider/authentication.dart';
+import 'package:travel/provider/forgotpasword_provider.dart';
+import 'package:travel/provider/login_provider.dart';
+import 'package:travel/provider/signup_provider.dart';
+import 'package:travel/provider/start_page.dart';
 import 'package:travel/responsiveui/size-config.dart';
 import 'package:travel/screen/home-page.dart';
 import 'package:travel/screen/login-page.dart';
@@ -25,7 +32,14 @@ class MyApp extends StatelessWidget {
             SizeConfig().init(constraints, orientation);
             return MultiProvider(
               providers: [
+                ChangeNotifierProvider.value(value: SizedBoxProvider()),
                 ChangeNotifierProvider.value(value: Auth()),
+                ChangeNotifierProvider.value(value: ClipPathProvider()),
+                ChangeNotifierProvider.value(value: CircleAvatarProvider()),
+                ChangeNotifierProvider.value(value: StartPageProvider()),
+                ChangeNotifierProvider.value(value: SignUpProvider()),
+                ChangeNotifierProvider.value(value: LoginProvider()),
+                ChangeNotifierProvider.value(value: ForgotProvider()),
               ],
               child: MaterialApp(
                 debugShowCheckedModeBanner: false,

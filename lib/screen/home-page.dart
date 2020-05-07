@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:provider/provider.dart';
-import 'package:travel/provider/login-provider.dart';
+import 'package:travel/provider/authentication.dart';
 import 'package:travel/screen/started-page.dart';
 
 class HomePage extends StatefulWidget {
